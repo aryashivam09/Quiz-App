@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App_1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div class="header">
+            <div class="timer">
+                <i class="fas fa-clock"></i>
+                <span id="timer">15</span>
+            </div>
+            <div class="question-number" id="question-number">Question 1 of 10</div>
+        </div>
+        <div id="quiz-container">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div id="loading" class="loading">Loading...</div>
+            <button id="next-button">Next Question</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
